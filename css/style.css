@@ -20,14 +20,16 @@ header {
     height: 110px;
     top: 0;
     left: 0;
-    background-color: transparent;
+    background-color: #8e9aaf;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     z-index: 1000;
 }
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 15px;
+    padding: 0px 23px;
     margin: 0px auto;
     flex-wrap: wrap;
 }
@@ -43,8 +45,9 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 60px;
 }
-@media (max-width:450px) {
+@media (max-width:590px) {
     .navlist {
         display: none;
     }
@@ -54,7 +57,7 @@ header .container {
     position: relative;
     display: none;
 }
-@media (max-width:450px) {
+@media (max-width:590px) {
     .links {
         display: block;
     }
@@ -129,7 +132,7 @@ header .links .icon {
 .links ul li:not(:last-child)  {
     border-bottom: 1px solid #ddd;
 }
-@media (max-width:450px) {
+@media (max-width:590px) {
     .links {
         display: block;
     }
@@ -178,7 +181,7 @@ a {
     transform: scale(1.1);
 }
 .home {
-    background-image: linear-gradient(to right, #284b63e6 30%, #778da988 ),
+    background-image: linear-gradient(to right, #284b63e6 30%, #6d597a ),
     url(../photos/img2.png);
     width: 100%;
     height: 100vh;
@@ -222,7 +225,7 @@ a {
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #3d5a80;
+    color: #d8e2dc;
 }
 .social {
     margin-bottom: 20px;
@@ -239,7 +242,7 @@ a {
 .sub-services {
     padding: 100px;
 }
-@media (max-width:450px) {
+@media (max-width:590px) {
     .sub-services {
         padding: 30px;
     }
@@ -288,7 +291,7 @@ a {
     align-items: center;
     gap: 60px;
 }
-@media (max-width:450px) {
+@media (max-width:590px) {
     .about .container {
         flex-direction: column;
     }
@@ -300,7 +303,7 @@ a {
     width: 48%;
 
 }
-@media (max-width:450px) {
+@media (max-width:590px) {
     .about .container > div {
         width: 148%;
     }
@@ -342,7 +345,7 @@ a {
 .portfolio {
     padding: 72px;
 }
-@media (max-width:450px) {
+@media (max-width:590px) {
     .portfolio {
         padding: 10px;
     }
@@ -384,10 +387,10 @@ a img {
 }
 .popup {
     position: absolute;
-    top: 0px;
+    top: 30%;
     left: 0px;
     width: 100%;
-    height: 100%;
+    height: 69%;
     display: flex;
     flex-direction: column;
     justify-content: center;
